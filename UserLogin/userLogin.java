@@ -2,7 +2,7 @@ package UserLogin;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class userLogin {
+public class UserLogin {
 
     public static boolean  login() {
         
