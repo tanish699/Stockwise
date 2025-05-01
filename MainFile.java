@@ -1,10 +1,17 @@
 import UserLogin.UserLogin;
 import PortFolio.PortFolio;
+import Orders.Order;
 import java.util.Scanner;
 
-public class Main {
+public class MainFile {
     public static void main(String[] args) {
 
+
+        Order myOrder = new Order(1,1,"apple");
+        myOrder.addOrder(1,1,"tesla"); 
+        myOrder.addOrder(1,1,"ford");
+
+        myOrder.printOrders();
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter username: ");
         String enteredUsername = sc.nextLine();
