@@ -8,7 +8,7 @@ public class UserLogin {
         HashMap<String, String> userDatabase = new HashMap<>();
 
         
-        userDatabase.put("Isha", "Ishaisha05");
+        userDatabase.put("Isha", "Isha");
 
         if (userDatabase.containsKey(enteredUsername)) {
             
